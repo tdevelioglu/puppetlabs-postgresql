@@ -10,9 +10,8 @@
   "dependencies": [
     {"name":"puppetlabs/stdlib","version_requirement":"4.x"},
     {"name":"puppetlabs/apt","version_requirement":">=2.0.0 <3.0.0"},
-    {"name":"puppetlabs/concat","version_requirement":">= 1.1.0 <3.0.0"}
+    {"name":"puppetlabs/concat","version_requirement":">= 4.0.0 <5.0.0"}
   ],
-  "data_provider": null,
   "operatingsystem_support": [
     {
       "operatingsystem": "RedHat",
@@ -67,7 +66,7 @@
   "requirements": [
     {
       "name": "puppet",
-      "version_requirement": ">= 3.0.0 < 5.0.0"
+      "version_requirement": ">= 4.7.0 < 5.0.0"
     }
   ]
 }
